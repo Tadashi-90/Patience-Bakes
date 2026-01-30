@@ -3,7 +3,7 @@ import { cakeOneNoBg } from '../assets';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen lg:h-screen flex items-center overflow-hidden lg:overflow-visible py-20 lg:py-0">
+    <section className="relative min-h-screen lg:h-screen flex items-center overflow-x-hidden py-20 lg:py-0">
       {/* Background with decorative elements */}
       <div className="absolute inset-0 bg-[#FFFBF0] -z-10">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-primary-100/50 rounded-l-[100px] transform translate-x-1/4"></div>
