@@ -8,10 +8,10 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           
           {/* Team/CEO Section */}
-          <div className="relative group flex justify-center">
+          <div className="relative group flex justify-center mb-12 lg:mb-0">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary-100 to-secondary-100 rounded-full blur-2xl opacity-50 group-hover:opacity-100 transition-opacity duration-700"></div>
             
-            <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] flex items-center justify-center">
+            <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] flex items-center justify-center">
               {/* Dotted Border Container */}
               <div className="absolute inset-0 border-4 border-dashed border-primary-600 rounded-full animate-spin-slow"></div>
               
