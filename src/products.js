@@ -17,36 +17,44 @@ const getOptimizedImage = (img) => img;
 
 export const allProducts = [
   {
-    name: "Decorated Cakes",
+    name: "Decorated Cakes (6 Inch)",
     category: "Cakes",
-    price: "Custom",
+    price: "From K230",
     image: getOptimizedImage(cake2),
-    description: "Exquisite designs for your special celebrations. Hand-crafted with precision.",
+    description: "Creamed cakes: 1 layer K230, 2 layers K330, 3 layers K430. Perfect for small celebrations.",
     color: "from-pink-100 to-rose-50"
   },
   {
-    name: "Plain Cakes",
+    name: "Decorated Cakes (7 Inch)",
     category: "Cakes",
-    price: "From K20,000",
-    image: getOptimizedImage(plainCake),
-    description: "Classic vanilla, chocolate, and red velvet cakes. Simple yet divine.",
-    color: "from-orange-100 to-amber-50"
-  },
-  {
-    name: "7 Inch Custom Cake",
-    category: "Cakes",
-    price: "K25,000",
+    price: "From K250",
     image: getOptimizedImage(sevenInchCake),
-    description: "Perfectly sized custom cakes for small gatherings.",
+    description: "Creamed cakes: 1 layer K250, 2 layers K350, 3 layers K450. The standard size for parties.",
     color: "from-yellow-100 to-amber-50"
   },
   {
-    name: "Vanilla Dream Cake",
+    name: "Decorated Cakes (8 Inch)",
     category: "Cakes",
-    price: "K22,000",
+    price: "From K450",
     image: getOptimizedImage(plainCake2),
-    description: "Double layered moist vanilla cake with creamy frosting.",
+    description: "Creamed cakes: 2 layers K450, 3 layers K550. Large cakes for grand occasions.",
     color: "from-blue-100 to-indigo-50"
+  },
+  {
+    name: "Plain Cakes (6 Inch)",
+    category: "Cakes",
+    price: "K150",
+    image: getOptimizedImage(plainCake),
+    description: "Classic 6-inch cake without cream. Simple yet divine.",
+    color: "from-orange-100 to-amber-50"
+  },
+  {
+    name: "Plain Cakes (7 Inch)",
+    category: "Cakes",
+    price: "K170",
+    image: getOptimizedImage(plainCake2),
+    description: "Classic 7-inch cake without cream. Perfect for tea time.",
+    color: "from-orange-100 to-amber-50"
   },
   {
     name: "Cake Slices",
@@ -59,15 +67,15 @@ export const allProducts = [
   {
     name: "Decorated Cupcakes",
     category: "Cupcakes",
-    price: "K3,500",
+    price: "K150 (Box of 6)",
     image: getOptimizedImage(decoratedCupcakes),
-    description: "Bite-sized happiness with stunning frosting designs.",
+    description: "Stunning designs in a box. Box of 6 for K150, Box of 12 for K300.",
     color: "from-purple-100 to-fuchsia-50"
   },
   {
     name: "Plain Cupcakes",
     category: "Cupcakes",
-    price: "K2,500",
+    price: "K8/each",
     image: getOptimizedImage(plainCupcakes),
     description: "Soft, fluffy cupcakes that melt in your mouth.",
     color: "from-blue-100 to-sky-50"
@@ -83,9 +91,9 @@ export const allProducts = [
   {
     name: "Samosas",
     category: "Savory",
-    price: "K1,500",
+    price: "K80 (for 10)",
     image: getOptimizedImage(samuso),
-    description: "Crispy triangular pockets of spicy goodness.",
+    description: "Crispy triangular pockets of spicy goodness. Sold in packs of 10.",
     color: "from-emerald-100 to-teal-50"
   },
   {
@@ -99,9 +107,9 @@ export const allProducts = [
   {
     name: "Smoked Fish",
     category: "Smoked",
-    price: "K15,000",
+    price: "K100 (Labor)",
     image: getOptimizedImage(smokedFish),
-    description: "Perfectly seasoned and smoked fish, a local favorite.",
+    description: "Expertly smoked fish. Price is for labor per batch of 4.",
     color: "from-stone-200 to-gray-100"
   }
 ];
