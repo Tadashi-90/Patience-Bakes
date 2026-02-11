@@ -59,7 +59,7 @@ export const allProducts = [
   {
     name: "Cake Slices",
     category: "Treats",
-    price: "K5,000/slice",
+    price: "K60/slice",
     image: getOptimizedImage(cakeSlices),
     description: "Perfect for a quick sweet fix. Available in various flavors daily.",
     color: "from-yellow-100 to-orange-50"
@@ -99,7 +99,7 @@ export const allProducts = [
   {
     name: "Milk Scones",
     category: "Scones",
-    price: "K2,000",
+    price: "K5",
     image: getOptimizedImage(plainScones),
     description: "Rich, buttery scones perfect for tea time.",
     color: "from-amber-100 to-yellow-50"

@@ -28,8 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-2xl font-display font-bold text-bakery-chocolate">
-              <span className="hidden sm:inline">Patience Bakes</span>
-              <span className="sm:hidden">PB</span>
+              <span className="sm:inline">Patience Bakes</span>
             </Link>
           </div>
           
