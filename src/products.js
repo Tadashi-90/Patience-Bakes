@@ -19,23 +19,23 @@ export const allProducts = [
   {
     name: "Decorated Cakes (6 Inch)",
     category: "Cakes",
-    price: "From K230",
-    image: getOptimizedImage(cake2),
+    price: "K230 - K430",
+    image: getOptimizedImage(sevenInchCake),
     description: "Creamed cakes: 1 layer K230, 2 layers K330, 3 layers K430. Perfect for small celebrations.",
     color: "from-pink-100 to-rose-50"
   },
   {
     name: "Decorated Cakes (7 Inch)",
     category: "Cakes",
-    price: "From K250",
-    image: getOptimizedImage(sevenInchCake),
+    price: "K250 - K450",
+    image: getOptimizedImage(cake2),
     description: "Creamed cakes: 1 layer K250, 2 layers K350, 3 layers K450. The standard size for parties.",
     color: "from-yellow-100 to-amber-50"
   },
   {
     name: "Decorated Cakes (8 Inch)",
     category: "Cakes",
-    price: "From K450",
+    price: "K450 - K550",
     image: getOptimizedImage(plainCake2),
     description: "Creamed cakes: 2 layers K450, 3 layers K550. Large cakes for grand occasions.",
     color: "from-blue-100 to-indigo-50"
@@ -83,9 +83,9 @@ export const allProducts = [
   {
     name: "Meat Pies",
     category: "Savory",
-    price: "K4,000",
+    price: "K20 - K35",
     image: getOptimizedImage(meatPie),
-    description: "Golden flaky pastry filled with seasoned chicken or beef.",
+    description: "Golden flaky pastry. Mini pies K20, Big pies K35.",
     color: "from-red-100 to-orange-50"
   },
   {
