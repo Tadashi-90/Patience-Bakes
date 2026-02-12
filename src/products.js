@@ -1,5 +1,6 @@
 import { 
-  cake2, 
+  cake2,
+  cake3,
   plainCake, 
   cakeSlices, 
   meatPie, 
