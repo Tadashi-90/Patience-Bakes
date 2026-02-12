@@ -62,7 +62,7 @@ const Terms = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           {/* Header Section */}
-          <div className="lg:w-1/3 sticky top-32">
+          <div className="lg:w-1/3 lg:sticky lg:top-32">
             <h2 className="text-base font-bold text-primary-600 uppercase tracking-[0.3em] mb-4">Our Policy</h2>
             <h3 className="text-4xl md:text-5xl font-display font-bold text-bakery-chocolate mb-6 leading-tight">
               Terms & <span className="text-primary-600 italic">Conditions</span>
