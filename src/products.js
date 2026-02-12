@@ -9,7 +9,8 @@ import {
   plainCupcakes,
   smokedFish,
   sevenInchCake,
-  plainCake2
+  plainCake2,
+  plainCupcakesOriginal
 } from './assets';
 
 // Helper to handle image formats (prefer webp if available in future)
@@ -20,7 +21,7 @@ export const allProducts = [
     name: "Decorated Cakes (6 Inch)",
     category: "Cakes",
     price: "K230 - K430",
-    image: getOptimizedImage(sevenInchCake),
+    image: getOptimizedImage(cake2),
     description: "Creamed cakes: 1 layer K230, 2 layers K330, 3 layers K430. Perfect for small celebrations.",
     color: "from-pink-100 to-rose-50"
   },
@@ -28,7 +29,7 @@ export const allProducts = [
     name: "Decorated Cakes (7 Inch)",
     category: "Cakes",
     price: "K250 - K450",
-    image: getOptimizedImage(cake2),
+    image: getOptimizedImage(sevenInchCake),
     description: "Creamed cakes: 1 layer K250, 2 layers K350, 3 layers K450. The standard size for parties.",
     color: "from-yellow-100 to-amber-50"
   },
@@ -76,7 +77,7 @@ export const allProducts = [
     name: "Plain Cupcakes",
     category: "Cupcakes",
     price: "K8/each",
-    image: getOptimizedImage(plainCupcakes),
+    image: getOptimizedImage(plainCupcakesOriginal),
     description: "Soft, fluffy cupcakes that melt in your mouth.",
     color: "from-blue-100 to-sky-50"
   },

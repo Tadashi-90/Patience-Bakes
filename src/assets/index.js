@@ -11,6 +11,7 @@ import samuso from './images/samuso.jpg';
 import plainScones from './images/plain scones.jpg';
 import decoratedCupcakes from './images/decorated cupcakes.jpg';
 import plainCupcakes from './images/plain cupcakes.jpg';
+import plainCupcakesOriginal from './images/plain cupcakes original.jpeg';
 import smokedFish from './images/smoked fish.jpeg';
 import sevenInchCake from './images/7 inch cake.jpg';
 import ceoPicture from "./images/CEO's Picture.png";
@@ -29,6 +30,7 @@ export {
   plainScones,
   decoratedCupcakes,
   plainCupcakes,
+  plainCupcakesOriginal,
   smokedFish,
   sevenInchCake,
   ceoPicture,
