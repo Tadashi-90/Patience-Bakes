@@ -20,25 +20,25 @@ export const allProducts = [
   {
     name: "Decorated Cakes (6 Inch)",
     category: "Cakes",
-    price: "K230 - K430",
-    image: getOptimizedImage(cake2),
-    description: "Creamed cakes: 1 layer K230, 2 layers K330, 3 layers K430. Perfect for small celebrations.",
+    price: "From K230",
+    image: getOptimizedImage(sevenInchCake),
+    description: "Creamed cakes: 1 Layer K230, 2 Layers K330, 3 Layers K430. Perfect for small celebrations.",
     color: "from-pink-100 to-rose-50"
   },
   {
     name: "Decorated Cakes (7 Inch)",
     category: "Cakes",
-    price: "K250 - K450",
-    image: getOptimizedImage(sevenInchCake),
-    description: "Creamed cakes: 1 layer K250, 2 layers K350, 3 layers K450. The standard size for parties.",
+    price: "From K250",
+    image: getOptimizedImage(cake2),
+    description: "Creamed cakes: 1 Layer K250, 2 Layers K350, 3 Layers K450. The standard size for parties.",
     color: "from-yellow-100 to-amber-50"
   },
   {
     name: "Decorated Cakes (8 Inch)",
     category: "Cakes",
-    price: "K450 - K550",
-    image: getOptimizedImage(plainCake2),
-    description: "Creamed cakes: 2 layers K450, 3 layers K550. Large cakes for grand occasions.",
+    price: "From K450",
+    image: getOptimizedImage(cake3),
+    description: "Creamed cakes: 2 Layers K450, 3 Layers K550. Large cakes for grand occasions.",
     color: "from-blue-100 to-indigo-50"
   },
   {
