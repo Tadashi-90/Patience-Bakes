@@ -6,7 +6,7 @@ import {
   samuso, 
   plainScones,
   decoratedCupcakes,
-  plainCupcakes,
+  // plainCupcakes,
   smokedFish,
   sevenInchCake,
   plainCake2,

@@ -10,7 +10,7 @@ import meatPie from './images/meat pie.jpg';
 import samuso from './images/samuso.jpg';
 import plainScones from './images/plain scones.jpg';
 import decoratedCupcakes from './images/decorated cupcakes.jpg';
-import plainCupcakes from './images/plain cupcakes.jpg';
+// import plainCupcakes from './images/plain cupcakes.jpg';
 import plainCupcakesOriginal from './images/plain cupcakes original.jpeg';
 import smokedFish from './images/smoked fish.jpeg';
 import sevenInchCake from './images/7 inch cake.jpg';
@@ -29,7 +29,7 @@ export {
   samuso,
   plainScones,
   decoratedCupcakes,
-  plainCupcakes,
+  // plainCupcakes,
   plainCupcakesOriginal,
   smokedFish,
   sevenInchCake,
